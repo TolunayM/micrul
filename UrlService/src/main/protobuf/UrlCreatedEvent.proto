@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.micrul.UrlService.protobuf;
+option java_outer_classname = "EventProtos";
+
+message UrlCreatedEvent{
+  string long_url=1;
+  string short_url=2;
+}

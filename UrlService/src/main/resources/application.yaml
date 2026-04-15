@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: UrlService
+  data:
+    mongodb:
+      uri: mongodb://localhost:27019
+      database: url-service
+
+server:
+  port: 8060

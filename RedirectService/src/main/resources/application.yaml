@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: RedirectService
+  data:
+    mongodb:
+      uri: mongodb://localhost:27019
+      database: redirect-service
+
+server:
+  port: 8061
